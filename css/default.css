@@ -41,7 +41,7 @@ nav ul li a{
 	text-decoration: none;
 	color: #000;
 	padding:15px;
-	transition:all .3s;
+	transition:all .1s;
 }
 nav ul li a:hover{
 	color:#666;	
@@ -73,13 +73,13 @@ nav li.has-child ul{
 	visibility: hidden;
 	opacity: 0;
     /*アニメーション設定*/
-	transition: all .3s;
+	transition: all .1s;
 }
 
 /*hoverしたら表示*/
 nav li.has-child:hover > ul,
 nav li.has-child ul li:hover > ul,
-nav li.has-child:active > ul,
+nav li.has-child:active > ul 
 nav li.has-child ul li:active > ul{
   visibility: visible;
   opacity: 1;

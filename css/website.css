@@ -19,6 +19,9 @@ main a:hover {
     /* max-width: 400px; */
     width: 45%;
     margin: 8px;
+
+    border-bottom: 1px gray solid;
+
 }
 .site a{
     text-align: center;
@@ -32,6 +35,5 @@ main a:hover {
         margin-bottom: 20px;
 
 
-        border-bottom: 1px gray solid;
     }
 }
