@@ -35,6 +35,9 @@ img {
 
 @media only screen and (max-width: 768px) {
     #gallery{
-    columns: 2;
+        columns: 2;
     } 
-  }
+    #gallery li {
+        filter: none;
+    }
+}
