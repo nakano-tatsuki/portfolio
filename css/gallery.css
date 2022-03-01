@@ -21,12 +21,12 @@ img {
     transition: all 1s;
     margin: 0 2px;
     margin-bottom: 4px;
-    filter: grayscale();
+/*     filter: grayscale(); */
     transition: filter 0.6s;
 }
-#gallery li:hover {
+/* #gallery li:hover {
     filter: none;
-}
+} */
 
 #gallery li img {
     height: auto;
