@@ -1,6 +1,6 @@
 let gallery = document.querySelector("#gallery");
 
-for(let i=1; i<25; i++){
+for(let i=1; i<37; i++){
     num = ('00' + i).slice(-2);
 
 
