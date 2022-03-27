@@ -13,12 +13,12 @@ main a:hover {
 #sites {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .site {
     /* max-width: 400px; */
     width: 45%;
-    margin: 8px;
+    margin: 16px;
 
     border-bottom: 1px gray solid;
 
